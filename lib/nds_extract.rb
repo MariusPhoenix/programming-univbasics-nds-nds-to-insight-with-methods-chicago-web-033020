@@ -3,7 +3,7 @@ require 'directors_database'
 require 'pp'
 #binding.pry
 # Find a way to accumulate the :worldwide_grosses and return that Integer
-#def gross_for_director(director_data)
+def gross_for_director(director_data)
 total = 0
 index_movies = 0
 movie = director_data[:movies]
