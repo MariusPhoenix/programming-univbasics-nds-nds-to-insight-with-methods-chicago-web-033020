@@ -29,5 +29,5 @@ def directors_totals(nds)
       result[director] = gross_for_director(director_data)
       index_dr +=1
   end
-  #nil
+  nil
 end
