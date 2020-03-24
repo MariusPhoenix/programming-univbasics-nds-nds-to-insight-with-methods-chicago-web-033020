@@ -21,6 +21,7 @@ total
 # { directorOne => allTheMoneyTheyMade, ... }
 def directors_totals(nds)
   result = {}
-  
+  index_dr = 0
+  while index_dr < 
   nil
 end
