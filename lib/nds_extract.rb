@@ -5,7 +5,7 @@ binding.pry
 # using director_data as input
 def gross_for_director(director_data)
 index_movies = 0
-movie = directors_database[:]
+movie = directors_database[index]
 while index_movies < 
 end
 
