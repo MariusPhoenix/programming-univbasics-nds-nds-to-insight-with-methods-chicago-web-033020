@@ -22,6 +22,7 @@ total
 def directors_totals(nds)
   result = {}
   index_dr = 0
+  director = nds[index_dr][:name]
   while index_dr < nds.length do
     index_movies = 0
     while index_movies < nds[index_dr].length do
